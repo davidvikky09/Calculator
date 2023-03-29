@@ -1,0 +1,212 @@
+@import url(//db.onlinewebfonts.com/c/565a681be0eb6f1d92c6bc57c629ea35?family=Flame);
+
+body{
+    background-color: #f5ebdc;
+}
+
+header{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+#logo{
+    margin-left: 150px;
+    margin-right: 20px;
+    width: 46px;
+    height: 48px;
+}
+
+a{
+    margin-right: 30px;
+    font-weight: 100px;
+    font-size: 18px;
+    color: #502314;
+    text-decoration: none;
+    font-family: flame;
+}
+
+#top_container{
+    width: 100%;
+    max-width: 1128px;
+    height: 53.02px;
+    padding: 0;
+    min-height: auto;
+    display: block;
+    margin-left: 150px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1128px;
+    height: 100.8px;
+    padding: 0;
+    min-height: auto;
+    display: block;
+    margin-left: 150px;
+}
+.general{
+    box-sizing: border-box;
+    max-width: 1128px;
+    height: 100.8px;
+}
+
+ol{
+    width: 100%;
+    max-width: 1128px;
+    height: 100.8px;
+    display: flex;
+    padding: 16px 0;
+    counter-reset: item;
+    list-style-type: none;
+}
+
+#home::after{
+    content: " /";
+    position: absolute;
+    right: -15px;
+    top: 0;
+    color: darkgray;
+}
+
+
+
+#home{
+    position: relative;
+    margin-right: 24px;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.06px;
+    font-family: flame;
+    font-weight: 300;
+    color: #502314;
+}
+
+#careers{
+    position: relative;
+    margin-right: 24px;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.06px;
+    font-family: flame;
+    font-weight: 300;
+    color: #d72300;
+}
+
+h1{
+    font-family: flame;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.1;
+    letter-spacing: -1.02px;
+    color: #502314;
+}
+
+br{
+    padding: 0;
+    margin: 0;
+    height: 19px;
+}
+
+.container-2{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery{
+    display: block;
+    box-sizing: border-box;
+    width: 1280px;
+    height: 271.94px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.sub_gallery{
+    width: 100%;
+    max-width: 1128px;
+    height: 271.94px;
+    padding: 0 ;
+    min-height: auto;
+    display: block;
+}
+
+.text_container{
+    width: 100%;
+    max-width: 1128px;
+    padding: 0;
+    min-height: auto;
+    display: block;
+}
+
+.text{
+    text-align: center;
+    line-height: 1.29;
+    letter-spacing: -1.02px;
+    font-size: 42px;
+    font-family: flame;
+    font-weight: 800;
+    color: #502314;
+}
+
+.paragraph_wrapper{
+    width: 100%;
+    max-width: 1128px;
+    padding: 0;
+    min-height: auto;
+    display: block;
+}
+
+#paragraph{
+    margin-bottom: 16px;
+    text-align: center;
+    line-height: 21px;
+    letter-spacing: -0.41px;
+    font-size: 16px;
+    font-family: flame;
+    font-weight: 300;
+    color: rgba(80, 35, 20, 0.8);;
+}
+
+.button_wrapper{
+    text-align: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 1280px;
+    height: 56px;
+    display: block;
+}
+
+.bk_button{
+    margin-left: 150px;
+    min-width: 64px;
+    padding: 14px 22px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #d72300;
+    align-items: center;
+    display: inline-flex;
+    text-indent: 0.0892857143em;
+    vertical-align: middle;
+    border-style: none;
+    transition-property: inherit;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.btn_text{
+    letter-spacing: -0.41px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: flame;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+}

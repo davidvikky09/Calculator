@@ -1,0 +1,274 @@
+@import url(//db.onlinewebfonts.com/c/565a681be0eb6f1d92c6bc57c629ea35?family=Flame);
+
+body{
+    background-color: #f5ebdc;
+}
+
+header{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+#logo{
+    margin-left: 150px;
+    margin-right: 20px;
+    width: 46px;
+    height: 48px;
+}
+
+a{
+    margin-right: 30px;
+    font-weight: 100px;
+    font-size: 18px;
+    color: #502314;
+    text-decoration: none;
+    font-family: flame;
+}
+
+.venues_card{
+    /* overflow: scroll; */
+    width: 50%;
+    height: 700px;
+    overflow-y: auto;
+    border-right: 2px solid var(--line-default);
+    padding-right: 24px;
+    padding-left: 24px;
+    display: block;
+}
+
+.container{
+    width: 70%;
+    max-width: 1128px;
+    padding: 0;
+    min-height: auto;
+    display: block;
+    margin-left: 50px;
+}
+
+ol{
+    width: 100%;
+    display: flex;
+    padding: 16px 0;
+    counter-reset: item;
+    list-style-type: none;
+}
+
+#home::after{
+    content: " /";
+    position: absolute;
+    right: -15px;
+    top: 0;
+    color: darkgray;
+}
+
+
+
+#home{
+    position: relative;
+    margin-right: 24px;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.06px;
+    font-family: flame;
+    font-weight: 300;
+    color: #502314;
+}
+
+#resturants{
+    position: relative;
+    margin-right: 24px;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.06px;
+    font-family: flame;
+    font-weight: 300;
+    color: #d72300;
+}
+
+#input{
+    width: 75%;
+    height: 56px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: flame;
+    font-weight: 300;
+    color: #502314;
+}
+
+#locator{
+    width: 19px;
+    height: 19px;
+    position: relative;
+    right: 50px;
+}
+
+h3{
+    font-family: flame;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #502314;
+}
+
+.card_tab{
+    background-color: #fff;
+    padding: 16px 24px;
+    margin-bottom: 8px;
+    margin-left: 50px;
+    border-radius: 8px;
+    width: 70%;
+}
+
+/* #head{
+    font-weight: 300;
+    font-family: flame;
+    font-size: 16px;
+    color: #d72300;
+    line-height: 21px;
+    margin-left: 5px;
+}
+
+#head-1{
+    margin-left: 50px;
+    font-weight: 300;
+    font-family: flame;
+    font-size: 16px;
+    line-height: 21px;
+    color: #502314;
+} */
+
+
+.branches{
+    line-height: 1.41;
+    letter-spacing: -0.41px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: flame;
+    color: #502314;
+}
+
+.street{
+    line-height: 21px;
+    letter-spacing: -0.41px;
+    font-size: 16px;
+    font-family: flame;
+    font-weight: 800;
+    color: rgba(80, 35, 20, 0.8);
+    margin-bottom: 8px;
+}
+.sub_text{
+    font-family: flame;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #d72300;
+}
+
+
+
+iframe{
+    width: 80%;
+    height: 700px;
+}
+
+
+footer{
+    background-color: #502314;
+}
+
+.footer_case{
+    display: flex;
+}
+
+.footer_template{
+    width: 267px;
+    height: 32px;
+    margin-right: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.spacer{
+    display: block;
+    max-width: fit-content;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-right: 80px;
+    margin-left: 100px;
+    flex-grow: 1;
+}
+
+.footer_column{
+    display: block;
+    max-width: fit-content;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+.footer_link_title{
+    line-height: 1.41;
+    letter-spacing: -0.41px;
+    font-family: flame;
+    font-size: 22px;
+    text-align: left;
+    color: #fff;
+}
+.footer_link{
+    font-size: 16px;
+    color: #fff;
+    font-family: flame;
+    font-weight: 300;
+    word-break: normal;
+    line-height: 1.43;
+    letter-spacing: -0.06px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.box_shadow{
+    border-bottom: solid 1px white;
+    width: 80%;
+}
+
+.footer_case2{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    height: 150px;
+}
+
+.subtext{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: flame;
+    letter-spacing: .0071428571em;
+    line-height: 21px;
+}
+
+
+.footer_socialmedia{
+    margin-left: 700px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.socialmedia_icons{
+   margin-right: 40px;
+}
